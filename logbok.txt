@@ -9,3 +9,6 @@ jag har börjat jobba med wireframes med hjälp av figma. Nästa gång ska jag f
 
 04/14
 Idag har gjort klart den grafiska mallen och ska nästa gång börja koda Hemsidan.
+
+04/18
+Idag har jga börjat koda hemsidan. Jag började med Strartsidan där har jag gjort klart hela layouten över sidan och nästa gång ska jag fortsätta med detaljerna på sidan.
