@@ -9,7 +9,7 @@ section{
     grid-template-areas: 'Header'
                          'Main'
                          'Footer';
-    height: 1600px;
+
 }
 
 header{
@@ -18,18 +18,24 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    grid-area: Header;
 }
 
 main{
     background-color:#F8EDE3 ;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    grid-area: Main;
+    height: 100vh;
 }
 
 footer{
     background-color:#798777;
+    grid-area: Footer;
+    height: 10vh;
 }
 
 #pic1{
@@ -57,14 +63,38 @@ a{
 }
 
 .card{
-    width:400px;
-    height: 550px;
-    background-color: #A2B29F;
-    border-radius: 15px;
+    width:30vh;
+    height:40vh ;
+    background-image: url(bilder/pizza.png);
+    background-size: contain;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    border:solid rgb(78, 78, 78) 1px;
+    margin-left:100px;
 }
 
-.homepagepic{
-    object-fit:fill;
-    width:380px;
-    
+.card:first-child{
+    margin-left:0;
 }
+
+.cardbottom{
+    position: relative;
+    width:100%;
+    height:45%;
+    background-color:#A2B29F;
+    border-radius: 0 0 5px 5px;
+    z-index: 5;
+    bottom:0;
+}
+
+.cardpics{
+    position: absolute;
+    object-fit: fill;
+    width:300px;
+    z-index: -2;
+    top:0;
+}
+
