@@ -15,3 +15,6 @@ Idag har jga börjat koda hemsidan. Jag började med Strartsidan där har jag gj
 
 04/20
 jag har forstatt koda webbsidan. Jag har jobbat mycket med korten idag. Nästa gång kommer jag fortsätta koda så mycket som möjligt.
+
+04/21
+Jag har haft problem med integreringen av bootstrap nästa gång ska jag frtsätta.
