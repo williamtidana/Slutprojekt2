@@ -18,3 +18,6 @@ jag har forstatt koda webbsidan. Jag har jobbat mycket med korten idag. Nästa g
 
 04/21
 Jag har haft problem med integreringen av bootstrap nästa gång ska jag frtsätta.
+
+05/04
+Jag har jobbat med animeringar på korten och även lagt till knappar.
