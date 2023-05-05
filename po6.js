@@ -33,20 +33,6 @@ for(var i = 0; i < div.length; i++){
         
         offsetX = event.clientX - parseInt(toLeft);
         offsetY = event.clientY - parseInt(toTop);
-
-        for(var j = 0; j < div.length; j++){
-            button[j].style.width = 27 + 'px';
-            div[j].style.width = 270 + 'px';
-            text[j].style.width = 270 + 'px';
-            text[j].style.height = 420 + 'px';
-            area[j].style.fontSize = currentFontSize * 1.08 + 'em';
-            area[j].style.width = 260 + 'px';
-            area[j].style.top = 55 + 'px';
-          
-        
-        
-            drop[j].style.display = 'none';
-        }
         
         up = false;
     
@@ -59,15 +45,7 @@ for(var i = 0; i < div.length; i++){
 document.addEventListener('mouseup', function() {
     isDown = false;
     
-    for(var i = 0; i < div.length; i++){
-        button[i].style.width = 25 + 'px';
-        div[i].style.width = 250 + 'px';
-        text[i].style.width = 250 + 'px';
-        text[i].style.height = 400 + 'px';
-        area[i].style.fontSize = (currentFontSize + 'em');
-        area[i].style.width = 240 + 'px';
-        area[i].style.top = 50 + 'px';
-    }
+
 
 
 

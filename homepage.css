@@ -180,7 +180,7 @@ button:active{
     height: 400px;
     text-align: center;
     padding: 0;
-    background-color: lightblue;
+    background-color: #f8dec5;
     border-radius: 15px;
 }
 
@@ -189,7 +189,7 @@ button:active{
   width:250px;
   aspect-ratio: 5/1;
   position: absolute;
-  background-color: rgb(38, 73, 97);
+  background-color: rgba(38, 73, 97, 0.274);
   border-radius: 15px 15px 0 0;
   display: flex;
   justify-content: space-around;
@@ -205,17 +205,8 @@ button:active{
 }
 
 .area{
-    background-color:lightblue;
-    font-family: 'roboto';
-    font-size: 2em;
-    width: 240px;
-    border: none;
-    height:343px;
-    margin-top:0;
-    left:5px;
-    resize: none;
-    overflow: auto;
-    position:absolute;
+   margin-top: 50px;
+   width:90%;
 }
 
 textarea:focus, input:focus{
@@ -223,23 +214,10 @@ textarea:focus, input:focus{
 }
 
 .button{
-    width:25px;
-    aspect-ratio: 1/1;
-    z-index: 5;
-    position: absolute;
-    left:200px;
-    top:12.5px;
-    resize: none;
-    overflow: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30%;
+    display:none;
 }
 
-.button:hover{
-    background-color:rgba(15, 31, 41, 0.658);
-}
+
 
 ul{
     z-index: 10;
