@@ -71,3 +71,35 @@ footer{
     margin-right: 20px;
 }
 
+h1{
+    
+}
+
+.boxes{
+    display:flex;
+    justify-content: center;
+    width:70%;
+    aspect-ratio: 16/9;
+}
+
+.box1{
+    width:50%;
+    background-color: blue;
+    height: 100%;
+
+}
+
+.box1:first-child{
+    background-color: green;
+}
+
+.pizzabröd{
+    border-radius:100% ;
+    width:30%;
+    aspect-ratio: 1/1;
+    margin-left: 10%;
+}
+
+.content{
+    margin-left: 10%;
+}
