@@ -21,3 +21,7 @@ Jag har haft problem med integreringen av bootstrap nästa gång ska jag frtsät
 
 05/04
 Jag har jobbat med animeringar på korten och även lagt till knappar.
+
+
+05/12
+jag har jobbat med menu sidan.

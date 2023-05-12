@@ -71,9 +71,6 @@ footer{
     margin-right: 20px;
 }
 
-h1{
-    
-}
 
 .boxes{
     display:flex;
@@ -84,13 +81,14 @@ h1{
 
 .box1{
     width:50%;
-    background-color: blue;
+    background-color: #c2b5aa;
     height: 100%;
 
 }
 
 .box1:first-child{
-    background-color: green;
+    background-color: #c2b5aa;
+    margin-right: 20px;
 }
 
 .pizzabröd{
@@ -98,8 +96,44 @@ h1{
     width:30%;
     aspect-ratio: 1/1;
     margin-left: 10%;
+    margin-top: 10px;
+    border: solid #978d83 2px;
 }
 
 .content{
     margin-left: 10%;
+    
+}
+
+button{
+    margin-left: 20%;
+    margin-top: 10%;
+    width:40%;
+    aspect-ratio: 16/7;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 10px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border:solid #978d83 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(240, 240, 240);
+    transform: scale(1.1);
+}
+
+button:active{
+    background-color: rgb(196, 196, 196);
+}
+
+.text{
+    height: 100px;
+    width: 90%;
+
+}
+
+#menu{
+    margin:30px;
+    text-align: center;
 }
