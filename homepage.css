@@ -42,7 +42,8 @@ footer{
 }
 
 #pic1{
-    height: 80%;
+    height: 90%;
+    margin-top: -10px;
     
 }
 
@@ -197,6 +198,8 @@ button:active{
   z-index: 2;
   top:0px;
   left:0px;
+  display: none;
+  
 }
 
 
@@ -254,4 +257,8 @@ i{
     height: 100vh;
 
     z-index: -1;
+}
+
+#formcard{
+    display:none;
 }

@@ -42,7 +42,8 @@ footer{
 }
 
 #pic1{
-    height: 80%;
+    height: 90%;
+    margin-top: -10px;
     
 }
 
@@ -136,4 +137,57 @@ button:active{
 #menu{
     margin:30px;
     text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* Adjust the grid-template-areas of the section */
+  section {
+    grid-template-areas: 'Header'
+                         'jumbotron'
+                         'Main'
+                         'Footer';
+  }
+  
+  /* Adjust the height of the header and footer */
+  header {
+    height: 60px;
+  }
+  
+  footer {
+    height: 10vh;
+  }
+  
+  /* Hide the links container */
+  #links {
+    display: none;
+  }
+  
+  /* Adjust the width of the boxes */
+  .boxes {
+    width: 100%;
+
+  }
+  
+  /* Adjust the margin of the pizza bread image */
+  .pizzabröd {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  /* Adjust the margin of the content */
+  .content {
+    margin-left: 0;
+  }
+  
+  /* Adjust the margin of the button */
+  button {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  /* Adjust the margin of the text area */
+  .text {
+    width: 100%;
+  }
 }

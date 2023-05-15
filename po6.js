@@ -8,12 +8,32 @@ let up = false;
 let currentFontSize = 2;
 let toLeft = 0;
 let toTop = 0;
+let clicked = false;
 
 let area =document.getElementsByClassName("area");
 let drop = document.getElementsByClassName("drop");
 button = document.getElementsByClassName("button");
 text = document.getElementsByClassName("container");
 let div = document.querySelectorAll(".header");
+let form = document.getElementById("formcard");
+let order = document.getElementById("order");
+let ordertop = document.getElementsByClassName("header");
+
+order.addEventListener('click', toggleForm);
+
+function toggleForm(){
+    if(clicked == true){
+        form.style.display = "none";
+        ordertop[0].style.display ="none";
+        clicked = false;
+    }
+    else{
+        form.style.display = "block";
+        ordertop[0].style.display ="block";
+        clicked = true;
+    }
+
+}
 
 for(var i = 0; i < drop.length; i++){
     drop[i].style.display = "none";
