@@ -29,7 +29,7 @@ main{
     justify-content: center;
     align-items: center;
     grid-area: Main;
-    height: 100vh;
+    height: 120vh;
 }
 
 footer{
@@ -195,7 +195,7 @@ button:active{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 2;
+  z-index: 31;
   top:0px;
   left:0px;
   display: none;
@@ -261,19 +261,9 @@ i{
 
 #formcard{
     display:none;
+    z-index: 30;
 }
 
-
-
-@media screen and (max-width: 768px) {
-  .cards {
-    flex-wrap: wrap;
-    margin: 50px;
-    margin-top: -50px;
-    justify-content: center;
-    margin-left: 0;
-  }
-}
 
 @media screen and (max-width: 480px) {
   .cards {
@@ -283,10 +273,17 @@ i{
     margin-top: -20px;
     margin-left: 0;
   }
+
+  .card{
+    width:200px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   .jumbotron{
 
     grid-area: jumbotron;
-    margin-left:0px;
+    margin-left:10px;
     margin-top: 100px;
     width:80%;
 } 
